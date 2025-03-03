@@ -99,7 +99,10 @@ export async function createCustomerPortalSession(team: Team) {
               'other'
             ]
           }
-        }
+        },
+        payment_method_update: {
+          enabled: true,
+        },
       }
     });
   }
